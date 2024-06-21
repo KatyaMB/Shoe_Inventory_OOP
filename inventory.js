@@ -49,35 +49,7 @@ function findHighestValue(shoesArray) {
 // Wrapped in a table
 console.table([findHighestValue(shoesArray)]);
 
-
-
-// A function to edit all four properties of the shoes instances
-
-// let shoesItemEdit = prompt("Please input which shoe you would like to edit, Nike, Adidas, Reebok, Vivaia or Allbirds.");
-
-
-// function editShoe(shoesArray, shoeName, newname, newproductCode, newquantity, newvaluePerItem) {
-    
-//     // Find the shoe object with the matching name
-//     let shoeToEdit = shoesArray.find(shoe => shoe.name === shoeName);
-
-//     // If the shoe is found, can update its properties
-//     if (shoeToEdit) {
-//         Object.assign(shoeToEdit, {
-//             "name": newname,
-//             "productCode": newproductCode,
-//             "quantity": newquantity,
-//             "valuePerItem": newvaluePerItem
-//         });
-//         console.log("The shoe has been updated");
-//     } else {
-//         console.log("The shoe is not found.");
-//     }
-//     // Wrapped in a table
-//     console.table(shoesArray);
-// }
-
-let shoesItemEdit = prompt("Please input which shoe you would like to edit, Nike, Adidas, Reebok, Vivaia or Allbirds.");
+let shoesItemEdit = prompt("Please input which brand's properties you would like to edit, Nike, Adidas, Reebok, Vivaia or Allbirds.");
 
 // Call the editShoe function with the input value
 editShoe(shoesArray, shoesItemEdit);
